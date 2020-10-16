@@ -1,13 +1,7 @@
-# Instruções para a aula
+# Projeto de testes automatizados com NodeJS - Jest, MySQL e Sequelize.
 
-### Criação do banco de dados:
+### Testes realizados neste projeto:
 
-```javascript
-npx sequelize db:create
+- verificar se é possível criar um novo gerente
 
-npx sequelize db:migrate
-```
-
-### Siga as instruções na aula
-
-[Link para a video aula](https://youtu.be/B1kWb7tWoxs)
+- não cadastrar um gerente com o CPF existente
